@@ -1,5 +1,6 @@
 let div=document.querySelector('div')
 
+
 function getUsers(){
     fetch('https://jsonplaceholder.typicode.com/users')
     .then(httpRes=>httpRes.json())
